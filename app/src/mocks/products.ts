@@ -1,0 +1,240 @@
+export const products = [
+  {
+    _id: '6372e0caace3216763c03c5e',
+    name: 'Pizza quatro queijos',
+    description: 'Deliciosa pizza quatro queijos',
+    imagePath: '1668473034864-quatro-queijos.png',
+    price: 40,
+    ingredients: [
+      {
+        name: 'Mussarela',
+        icon: '🧀',
+        _id: '6372e0caace3216763c03c5f',
+      },
+      {
+        name: 'Parmesão',
+        icon: '🧀',
+        _id: '6372e0caace3216763c03c60',
+      },
+      {
+        name: 'Gouda',
+        icon: '🧀',
+        _id: '6372e0caace3216763c03c61',
+      },
+      {
+        name: 'Brie',
+        icon: '🧀',
+        _id: '6372e0caace3216763c03c62',
+      },
+    ],
+    category: '6372d9dc6c5a224e511008b1',
+    __v: 0,
+  },
+  {
+    _id: '6372e33c8544de17552deaa2',
+    name: 'Coca-Cola',
+    description: 'Coca-Cola 350ml',
+    imagePath: '1668689416859-coca-cola.png',
+    price: 5,
+    ingredients: [],
+    category: '6372e24a8366d3464e0f7a61',
+    __v: 0,
+  },
+  {
+    _id: '63738e8697dfcacd673818ab',
+    name: 'Burguer Molho Especial',
+    description:
+      'Delicioso burguer com carne 180g, queijo mussarela, alface, tomate e molho especial da casa.',
+    imagePath: '1668517510906-burger-molho-especial.png',
+    price: 35,
+    ingredients: [
+      {
+        name: 'Mussarela',
+        icon: '🧀',
+        _id: '63738e8697dfcacd673818ac',
+      },
+      {
+        name: 'Carne 180g',
+        icon: '🥩',
+        _id: '63738e8697dfcacd673818ad',
+      },
+      {
+        name: 'Alface',
+        icon: '🥬',
+        _id: '63738e8697dfcacd673818ae',
+      },
+      {
+        name: 'Tomate',
+        icon: '🍅',
+        _id: '63738e8697dfcacd673818af',
+      },
+      {
+        name: 'Molho Especial',
+        icon: '🧂',
+        _id: '63738e8697dfcacd673818b0',
+      },
+      {
+        name: 'Pão',
+        icon: '🍞',
+        _id: '63738e8697dfcacd673818b1',
+      },
+    ],
+    category: '63738d6497dfcacd673818a9',
+    __v: 0,
+  },
+  {
+    _id: '63738f0b97dfcacd673818bf',
+    name: 'Cerveja Pilsen',
+    description: 'Cerveja tipo pilsen.',
+    imagePath: '1668517643090-cerveja.png',
+    price: 7,
+    ingredients: [],
+    category: '6372e24a8366d3464e0f7a61',
+    __v: 0,
+  },
+  {
+    _id: '6373907a97dfcacd673818d2',
+    name: 'Chicken burguer',
+    description:
+      'Sanduíche de frango empanado com alface, tomate e molho especial.',
+    imagePath: '1668518010874-chicken.png',
+    price: 32,
+    ingredients: [
+      {
+        name: 'Queijo',
+        icon: '🧀',
+        _id: '637392f76d487298a0598203',
+      },
+      {
+        name: 'Frango empanado 180g',
+        icon: '🍗',
+        _id: '637392f76d487298a0598204',
+      },
+      {
+        name: 'Alface',
+        icon: '🥬',
+        _id: '637392f76d487298a0598205',
+      },
+      {
+        name: 'Tomate',
+        icon: '🍅',
+        _id: '637392f76d487298a0598206',
+      },
+      {
+        name: 'Molho Especial',
+        icon: '🧂',
+        _id: '637392f76d487298a0598207',
+      },
+      {
+        name: 'Pão',
+        icon: '🍞',
+        _id: '637392f76d487298a0598208',
+      },
+    ],
+    category: '63738d6497dfcacd673818a9',
+    __v: 0,
+  },
+  {
+    _id: '637393a06d487298a059821b',
+    name: 'Cheese Egg',
+    description: 'Hamburguer com alface, tomate, ovo e molho especial.',
+    imagePath: '1668518816126-egg.png',
+    price: 32,
+    ingredients: [
+      {
+        name: 'Mussarela',
+        icon: '🧀',
+        _id: '637393a06d487298a059821c',
+      },
+      {
+        name: 'Carne 180g',
+        icon: '🥩',
+        _id: '637393a06d487298a059821d',
+      },
+      {
+        name: 'Alface',
+        icon: '🥬',
+        _id: '637393a06d487298a059821e',
+      },
+      {
+        name: 'Tomate',
+        icon: '🍅',
+        _id: '637393a06d487298a059821f',
+      },
+      {
+        name: 'Ovo',
+        icon: '🥚',
+        _id: '637393a06d487298a0598220',
+      },
+      {
+        name: 'Molho Especial',
+        icon: '🧂',
+        _id: '637393a06d487298a0598221',
+      },
+      {
+        name: 'Pão',
+        icon: '🍞',
+        _id: '637393a06d487298a0598222',
+      },
+    ],
+    category: '63738d6497dfcacd673818a9',
+    __v: 0,
+  },
+  {
+    _id: '637393f56d487298a0598224',
+    name: 'Pizza Frango e Catupiry',
+    description: 'Pizza de frango e catupiry',
+    imagePath: '1668518901377-frango-catupiry.png',
+    price: 57,
+    ingredients: [
+      {
+        name: 'Frango',
+        icon: '🍗',
+        _id: '637393f56d487298a0598225',
+      },
+      {
+        name: 'Catupiry',
+        icon: '🧀',
+        _id: '637393f56d487298a0598226',
+      },
+    ],
+    category: '6372d9dc6c5a224e511008b1',
+    __v: 0,
+  },
+  {
+    _id: '6373944c6d487298a0598228',
+    name: 'Pizza Marguerita',
+    description: 'Pizza com tomate, quejo e manjericão',
+    imagePath: '1668518988961-marguerita.png',
+    price: 53,
+    ingredients: [
+      {
+        name: 'Tomate',
+        icon: '🍅',
+        _id: '6373944c6d487298a0598229',
+      },
+      {
+        name: 'Queijo',
+        icon: '🧀',
+        _id: '6373944c6d487298a059822a',
+      },
+      {
+        name: 'Manjericão',
+        icon: '🥬',
+        _id: '6373944c6d487298a059822b',
+      },
+    ],
+    category: '6372d9dc6c5a224e511008b1',
+    __v: 0,
+  },
+  {
+    _id: '6373947c6d487298a059822d',
+    name: 'Suco de laranja',
+    description: 'Suco natural de laranja ',
+    imagePath: '1668519036249-suco-de-laranja.png',
+    price: 7,
+    ingredients: [],
+    category: '6372e24a8366d3464e0f7a61',
+    __v: 0,
+  },
+];
