@@ -80,9 +80,9 @@ Para clonar esse repositório pelo terminal, utilize o [Git](https://git-scm.com
 
 ```bash
 # Clonando por HTTPS
-git clone https://github.com/bonizario/waiter-app.git
+git clone https://github.com/leovile/waiter-app.git
 # Clonando por SSH
-git clone git@github.com:bonizario/waiter-app.git
+git clone git@github.com:leovile/waiter-app.git
 # Entre na pasta do projeto
 cd waiter-app
 ```
